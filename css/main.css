@@ -1,0 +1,80 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oxygen'), local('Oxygen-Regular'), url(RzoNiRR1p2Mqyyz2RwqSMw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Oxygen Bold'), local('Oxygen-Bold'), url(yVHpdQrmTj9Kax1tmFSx2j8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+body 												{background-color:#fff; font-size:2em; font-family:'Oxygen',sans-serif; line-height:1.5;overflow-x:hidden;}
+
+.big 												{font-size:2em;}
+.full_height										{min-height:520px;}
+.navbar-custom										{background-image:none;background-color:rgba(233, 233, 233, .5);border:none;}
+
+#background1 svg 									{width: 2000px;z-index: -1;position: absolute;top: 0;left: -10px;}
+#projects svg 										{width: 2000px;z-index: -1;position: relative;top: -300px;left: -10px;}
+
+#background1										{background-color:rgba(0, 0, 0, .0);margin-bottom:0px;padding-bottom:0px;}
+#apis												{background-color:rgba(233, 233, 233,1);padding-top:50px;}
+#projects											{background-color:rgba(255, 255, 255,.3);padding-top:50px;}
+#about												{background-color:rgba(233, 233, 233,1);padding-top:50px;}
+#contact											{background-color:rgba(255, 255, 255,1);}
+
+
+.hexagon {
+  fill: none;
+  stroke: #000;
+  stroke-width: .5px;
+}
+path {
+  fill: none;
+  stroke: #000;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+
+.major_road { stroke: #776; }
+.minor_road { stroke: #ccb; }
+.highway { stroke: #f39; stroke-width: 1.5px; }
+.rail { stroke: #7de; }
+.buildings path { stroke: none; fill: black; }
+.building:hover path { stroke: #E41A1C; stroke-width:2px }
+
+
+.navbar li a 										{font-size: 1em;}
+
+
+.wimweb{
+	width:150px;
+	background: url(../img/truck.png) no-repeat;
+}
+
+.gtfsanalyst{
+	width:150px;
+	background: url(../img/map.svg) no-repeat;
+}
+
+.contact_label {font-size:.9em;}
+.contact_input {width:80%;}
+.btn-contact	{ width:80%;}
+.req			{color:#f00;}
+
+
+
+
+
+
