@@ -46,3 +46,10 @@ function scrollTo(elem){
 	if(elem === '#background1') {offset = 0;}
 	$("html, body").animate({ scrollTop: offset  }, 1000);
 }
+
+$('#sendMessage').on('click',function(){
+
+	console.log('hello?')
+	$('#message').html("Message sent.<br><a onclick='resetMessage'>Send another Message</a>").css('margin','auto');
+
+});
